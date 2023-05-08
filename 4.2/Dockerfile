@@ -14,4 +14,4 @@ COPY config/s3.yml config/s3.yml
 
 RUN bundle install --without development test --jobs=8
 
-HEALTHCHECK CMD wget --no-verbose --tries=1 --spider http://localhost:3000 || exit
+# HEALTHCHECK CMD wget --no-verbose --tries=1 --spider http://localhost:3000 || exit
