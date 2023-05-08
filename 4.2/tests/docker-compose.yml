@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+    redminerm42-test:
+      build: ./..
+      ports:
+        - 8090:3000
+      # volumes:
+      #   - /Users/minkbear/Work_SRC/redmine-docker/test-redminerm505-files:/usr/src/redmine/files
+      env_file:
+        - 42-test.env
