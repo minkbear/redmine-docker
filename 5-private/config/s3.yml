@@ -1,0 +1,9 @@
+production:
+  access_key_id: <%= ENV["AWS_ACCESS_KEY_ID"] %>
+  secret_access_key: <%= ENV["AWS_SECRET_ACCESS_KEY"] %>
+  bucket: <%= ENV["AWS_BUCKET"] %>
+  folder: <%= ENV["AWS_ROOT_FOLDER"] %>
+  endpoint: <%= ENV["AWS_ENDPOINT"] %>
+  thumb_folder: <%= ENV["AWS_LOCAL_THUMB_FOLDER"] %>
+  import_folder: <%= ENV["AWS_LOCAL_IMPORT_FOLDER"] %>
+  region: <%= ENV["AWS_DEFAULT_REGION"] %>
