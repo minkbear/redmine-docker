@@ -1,0 +1,7 @@
+nl:
+  google_analytics_directions: Plak uw <a href="http://www.google.com/analytics/" target="_blank">Google Analytics</a>
+    JavaScript code in onderstaand tekstveld en vergeet niet uw logopties in te stellen.
+  google_analytics_code_label: Google Analytics code (script tags inclusief)
+  google_analytics_log_anonymous_label: Anonieme gebruikers loggen
+  google_analytics_log_authenticated_label: Geauthenticeerde gebruikers loggen
+  google_analytics_log_administrator_label: Beheerders loggen
