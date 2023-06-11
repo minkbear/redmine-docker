@@ -1,0 +1,11 @@
+<%= raw @contacts.map {|contact| {
+      'id' => contact.id,
+      'text' => sanitize(contact.name_with_company),
+      'name' => sanitize(contact.name),
+      'avatar' => avatar_to(contact, :size => 16),
+      'company' => contact.is_company ? "" : sanitize(contact.company),
+      'email' => contact.primary_email,
+      'value' => contact.id
+      }
+    }.to_json
+%>

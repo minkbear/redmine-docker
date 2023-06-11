@@ -1,0 +1,10 @@
+<%= raw @companies.map {|company| {
+      'id' => company.id,
+      'name' => sanitize(company.name),
+      'avatar' => avatar_to(company, :size => 16),
+      'email' => company.primary_email,
+      'label' => sanitize(company.name),
+      'value' => sanitize(company.name)
+      }
+    }.to_json
+%>

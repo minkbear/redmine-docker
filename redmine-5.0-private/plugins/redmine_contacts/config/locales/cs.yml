@@ -1,0 +1,596 @@
+# encoding: utf-8
+cs:
+  contacts_title: Kontakty
+
+  label_crm_recently_viewed: Nedávno zobrazené
+  label_crm_gravatar_enabled: Použít gravatar
+  label_crm_view_all_contacts: Zobraz všechny kontakty
+  label_crm_background_info: Poznámky o kontaktu
+  label_crm_company: Společnost
+  label_contact_plural: Kontakty
+  label_crm_contact_edit_information: Úprava kontaktních informací
+  label_crm_edit_tags: Upravit štítky
+  label_crm_contact_view: Zobrazit
+  label_crm_contact_list: Seznam
+  label_crm_contact_new: Nový
+  label_crm_at_company: v
+  label_crm_last_notes: Poslední poznámky
+  label_crm_tags_plural: Štítky
+  label_crm_multi_tags_plural: Vyberte více štítků
+  label_crm_single_tag_mode: Jeden štítek
+  label_crm_multiple_tags_mode: Více štítků
+  label_crm_contact_tag: Štítek
+  label_crm_time_ago: před
+  label_crm_add_note_plural: Přidat poznámky k
+  label_crm_note_plural: Poznámky
+
+  label_crm_add_tags_rule: oddělit čárkami
+  label_crm_contact_search: Vyhledat podle jména
+  label_crm_note_for: Poznámka pro
+  label_crm_show_on_map: Zobrazit na mapě
+  label_crm_add_another_phone: přidat telefon
+  label_crm_remove: Smazat
+  label_crm_related_contacts: Související kontakty
+  label_crm_assigned_to: Odpovědný
+  label_crm_issue_added: Událost přidána
+  label_crm_add_emails_rule: oddělit čárkami
+  label_crm_add_phones_rule: oddělit čárkami
+
+  label_crm_note_show_extras: Pokročilé (soubory, datum)
+  label_crm_note_hide_extras: Skrýt pokročilé
+
+  label_deal_plural: Dealy
+  label_crm_contractor_plural: Zprostředkovatelé
+  label_deal: Deal
+  label_crm_deal_new: Nový deal
+  label_crm_deal_edit_information: Upravit informace o dealu
+  label_crm_deal_change_status: Změnit stav
+  label_crm_statistics: Statistiky
+
+  field_note_date: Datum poznámky
+
+  field_deal_name: Jméno
+  field_deal_background: Poznámky k nabídce
+  field_deal_contact: Kontakt
+  field_deal_price: Suma
+  field_price: Suma
+
+  field_contact_avatar: Avatar
+  field_contact_is_company: Kontakt na společnost
+  field_contact_name: Jméno
+  field_contact_last_name: Příjmení
+  field_contact_first_name: Jméno
+  field_contact_middle_name: Prostřední jméno
+  field_contact_job_title: Pracovní pozice
+  field_contact_company: Společnost
+  field_contact_address: Adresa
+  field_contact_phone: Telefon
+  field_contact_email: Email
+  field_contact_website: Webová stránka
+  field_contact_skype: Skype
+  field_contact_status: Status
+  field_contact_background: Poznámky ke kontaktu
+  field_contact_tag_names: Štítky
+  field_first_name: Jméno
+  field_last_name: Příjmení
+  field_company: Společnost
+  field_birthday: Narozeniny
+  field_contact_department: Oddělení
+
+  field_company_field: Obor činnosti
+
+  button_add_note: Přidat poznámku
+  notice_successful_save: Uloženo
+  notice_successful_add: Vytvořeno
+  notice_unsuccessful_save: Chyba při uložení
+
+  project_module_contacts: Kontakty
+
+  permission_view_contacts: Zobrazit kontakty
+  permission_edit_contacts: Upravit kontakty
+  permission_delete_contacts: Smazat kontakty
+  permission_view_deals: Zobrazit dealy
+  permission_edit_deals: Upravit dealy
+  permission_delete_deals: Smazat dealy
+  permission_add_notes: Přidat poznámky
+  permission_delete_notes: Smazat poznámky
+  permission_delete_own_notes: Smazat vlastní poznámky
+
+  # 2.0.0
+  label_crm_deal_category: Kategorie dealů
+  label_crm_deal_category_plural: Kategorie dealů
+  label_crm_deal_category_new: Nová kategorie
+  text_deal_category_destroy_assignments: Odebrat přiřazení ke kategorii
+  text_deal_category_destroy_question: "Některé dealy (%{count}) jsou přiřazeny této kategorii. Co chcete udělat?"
+  text_deal_category_reassign_to: Přidělit dealy k této kategorii
+  text_deals_destroy_confirmation: 'Opravdu chcete smazat vybrané dealy?'
+  label_crm_deal_status_plural: Stavy dealů
+  label_crm_deal_status: Stavy dealu
+  field_deal_status_is_closed: Uzavřený
+  label_crm_deal_status_new: Nový
+  permission_manage_contacts: Výčty
+  label_crm_sales_funnel: Přehled obchodu
+  label_crm_period: Období
+  label_crm_count: Počet
+
+  #2.0.1
+  label_crm_user_format: Formát jména kontaktu
+  label_crm_my_contact_plural: Kontakty přiřazené mě
+  label_crm_my_deal_plural: Otevřené dealy přiřazené mě
+  label_crm_contact_view_all: Zobrazit všechny kontakty
+  label_crm_deal_view_all: Zobrazit všechny dealy
+
+  #2.0.2
+  label_crm_bulk_edit_selected_contacts: Upravit všechny vybrané kontakty
+  label_crm_bulk_edit_selected_deals: Upravit všechny vybrané dealy
+  label_crm_bulk_send_mail_selected_contacts: Odeslat email vybraným kontaktům
+  field_add_tags: Přidat štíty
+  field_delete_tags: Smazat štítky
+  label_crm_send_mail: Odeslat email
+  error_empty_email:  Email nemůže být prázdný
+  permission_send_contacts_mail: Odeslat email
+  field_mail_from: Z adresy
+  text_email_macros: Dostupná makra %{macro}
+  field_message: Zpráva
+
+  #2.0.3
+  label_crm_add_contact: Add contact
+  label_contact: Kontakt
+  field_age: Věk
+  label_crm_vcf_import: Importovat z vCard
+  label_crm_mail_from: Od
+  permission_import_contacts: Importovat kontakty
+
+  #2.1.0
+  field_company_name: Název společnosti
+  label_crm_recently_added_contacts: Naposledy přidané kontakty
+  label_crm_created_by_me: Kontakty vytvořené mnou
+  my_contacts: Moje kontakty
+  my_deals: Moje dealy
+
+  #2.2.0
+  label_crm_note_type_email: Email
+  label_crm_note_type_call: Volat
+  label_crm_note_type_meeting: Schůzka
+  field_deal_currency: Měna
+  label_crm_my_contacts_stats: Statistiky kontaktů pro tento měsíc
+  label_crm_contacts_created: Kontakty vytvořeny
+  label_crm_deals_created: Dealy vytvořeny
+  my_contacts_avatars: Avatary mých kontaktů
+  my_contacts_stats: Statistiky kontaktů
+  label_crm_add_into: Přidat do
+  label_crm_delete_from: Odstranit z
+  label_crm_show_deaks_tab: Ukázat dealy
+  label_crm_show_on_projects_show: Zobrazit kontakty na přehledu porojektu
+
+  #2.2.1
+  label_crm_contacts_show_in_list: Zobrazit jako seznam
+
+  #2.3.0
+  label_crm_module_plural: Moduley
+  label_crm_list_partial_style: Seznam
+  label_crm_list_excerpt: Výňatek ze seznamu
+  label_crm_list_cards: Karty
+  label_crm_list_list: Tabulka
+  field_contacts: Kontakt
+  field_companies: Společnost
+  label_crm_added_by: Přidáno
+  label_crm_contact_note_authoring_time: Zobrazit čas poznámky
+  label_crm_contact_issues_filters: Filtry úkolů
+  label_crm_csv_import: Importovat z CSV
+  label_crm_upload_encoding: Kódování souboru
+  label_crm_csv_file: CSV soubor
+  label_crm_csv_separator: Oddělovač
+  field_middle_name: Prostřední jméno
+  field_job_title: Název pozice
+  field_address: Adresa
+  field_phone: Tel.
+  field_email: Email
+  field_tags: Štítky
+  field_last_note: Poslední poznámka
+  field_is_company: Je společnost
+  field_contact_full_name: Celé jméno
+  button_contacts_edit_query: Upravit dotaz
+  button_contacts_delete_query: Smazat dotaz
+  permission_manage_public_contacts_queries: Spravovat veřejné kontakty
+  permission_add_deals: Všechny dealy
+  permission_add_contacts: Přidat kontakty
+  permission_save_contacts_queries: Uložit
+
+  #2.3.3
+  label_crm_contact_show_in_app_menu: Zobrazit záložky v aplikačním menu
+
+  #2.3.4
+  label_crm_contact_show_closed_issues: Zobrazit uzavřené úkoly
+
+  #3.0.0
+  label_crm_import: Import
+  label_contact_note_plural: Poznámky ke kontaktům
+  label_deal_note_plural: Poznámky k dealům
+  label_crm_contact_all_note_plural: Všechny poznámky
+  error_unable_delete_deal_status: Nejde smazat stav dealu
+  label_crm_contacts_hidden: Skrytá nastavení
+
+  #3.1.0
+  label_crm_contact_added: Kontakt přidán
+  label_crm_note_added: Poznámka přidána
+  label_crm_deal_added: Deal přidán
+  label_crm_deal_updated: Deal upraven
+  text_crm_contact_added: "Kontakt %{name} byl přidán uživatelem %{author}."
+  text_crm_deal_added: "Deal %{name} byl přidán uživatelem %{author}."
+  text_crm_deal_status_changed: "Stav dealu změněn z %{old} na %{new}"
+  text_crm_deal_updated: "Deal %{name} byl upraven uživatelem %{author}."
+  label_crm_contacts_cc: Kopie
+  label_crm_contacts_bcc: Skrytá kopie
+  label_crm_contact_import: Importovat z CSV
+  permission_import_deals: Importovat dealy
+  label_crm_single_quotes: "Jednoduché úvozovky (')"
+  label_crm_double_quotes: "Dvojité úvozovky (\")"
+  label_crm_quotes_type: Typ úvozovek
+  label_crm_contacts_visibility: Viditelnost
+  label_crm_contacts_visibility_project: Dle práv projektu
+  label_crm_contacts_visibility_public: Veřejný
+  label_crm_contacts_visibility_private: Soukromý
+  permission_view_private_contacts: Zobrazit soukromé kontakty
+  text_crm_error_on_line: 'Chyba na řádku %{line}: %{error}.'
+
+  #3.2.0
+  label_crm_probability: Pravděpodobnost
+  label_crm_deal_status_type: Typ stavu
+  label_crm_select_companies: Filtrovat společnosti v dealech
+  label_crm_expected_revenue: Očekávaný obrat
+  label_crm_deal_due_date: Datum dokončení
+
+  #3.2.2
+  label_crm_show_deals_in_top_menu: Zobrazit dealy v menu
+  label_crm_show_details: Zobrazit detaily
+  label_crm_has_deals: Má dealy
+  label_crm_has_open_issues: Otevřené úkoly
+  label_crm_note: Poznámka
+
+  #3.2.5
+  notice_failed_to_save_contacts: "Nepodařilo se uložit %{count} kontakt(ů) z %{total} vybraných: %{ids}."
+
+  #3.2.6
+  project_module_deals: Dealy
+  permission_manage_deals: Spravovat dealy
+  label_crm_deals_from_subprojects: Zobrazit dealy z podprojektů
+  label_crm_megre_tags: Sloučit štítky
+  label_crm_monochrome_tags: Černobílé štítky
+
+  #3.2.7
+  label_crm_address: Adresa
+  label_crm_street1: Ulice 1
+  label_crm_street2: Ulice 2
+  label_crm_city: Město
+  label_crm_region: 'Region'
+  label_crm_postcode: 'PSČ'
+  label_crm_country: Země
+  label_crm_country_code: Kód země
+  label_crm_countries:
+    AF: Afghanistan
+    AL: Albania
+    DZ: Algeria
+    AS: American Samoa
+    AD: Andorra
+    AO: Angola
+    AI: Anguilla
+    AQ: Antarctica
+    AG: Antigua and Barbuda
+    AR: Argentina
+    AM: Armenia
+    AW: Aruba
+    AU: Australia
+    AT: Austria
+    AZ: Azerbaijan
+    BS: Bahamas
+    BH: Bahrain
+    BD: Bangladesh
+    BB: Barbados
+    BY: Belarus
+    BE: Belgium
+    BZ: Belize
+    BJ: Benin
+    BM: Bermuda
+    BT: Bhutan
+    BO: Bolivia
+    BA: Bosnia and Herzegovina
+    BW: Botswana
+    BV: Bouvet Island
+    BR: Brazil
+    BQ: British Antarctic Territory
+    IO: British Indian Ocean Territory
+    VG: British Virgin Islands
+    BN: Brunei
+    BG: Bulgaria
+    BF: Burkina Faso
+    BI: Burundi
+    KH: Cambodia
+    CM: Cameroon
+    CA: Canada
+    CT: Canton and Enderbury Islands
+    CV: Cape Verde
+    KY: Cayman Islands
+    CF: Central African Republic
+    TD: Chad
+    CL: Chile
+    CN: China
+    CX: Christmas Island
+    CC: Cocos [Keeling] Islands
+    CO: Colombia
+    KM: Comoros
+    CG: Congo - Brazzaville
+    CD: Congo - Kinshasa
+    CK: Cook Islands
+    CR: Costa Rica
+    HR: Croatia
+    CU: Cuba
+    CY: Cyprus
+    CZ: Czech Republic
+    CI: Côte d’Ivoire
+    DK: Denmark
+    DJ: Djibouti
+    DM: Dominica
+    DO: Dominican Republic
+    NQ: Dronning Maud Land
+    DD: East Germany
+    EC: Ecuador
+    EG: Egypt
+    SV: El Salvador
+    GQ: Equatorial Guinea
+    ER: Eritrea
+    EE: Estonia
+    ET: Ethiopia
+    FK: Falkland Islands
+    FO: Faroe Islands
+    FJ: Fiji
+    FI: Finland
+    FR: France
+    GF: French Guiana
+    PF: French Polynesia
+    TF: French Southern Territories
+    FQ: French Southern and Antarctic Territories
+    GA: Gabon
+    GM: Gambia
+    GE: Georgia
+    DE: Germany
+    GH: Ghana
+    GI: Gibraltar
+    GR: Greece
+    GL: Greenland
+    GD: Grenada
+    GP: Guadeloupe
+    GU: Guam
+    GT: Guatemala
+    GG: Guernsey
+    GN: Guinea
+    GW: Guinea-Bissau
+    GY: Guyana
+    HT: Haiti
+    HM: Heard Island and McDonald Islands
+    HN: Honduras
+    HK: Hong Kong SAR China
+    HU: Hungary
+    IS: Iceland
+    IN: India
+    ID: Indonesia
+    IR: Iran
+    IQ: Iraq
+    IE: Ireland
+    IM: Isle of Man
+    IL: Israel
+    IT: Italy
+    JM: Jamaica
+    JP: Japan
+    JE: Jersey
+    JT: Johnston Island
+    JO: Jordan
+    KZ: Kazakhstan
+    KE: Kenya
+    KI: Kiribati
+    KW: Kuwait
+    KG: Kyrgyzstan
+    LA: Laos
+    LV: Latvia
+    LB: Lebanon
+    LS: Lesotho
+    LR: Liberia
+    LY: Libya
+    LI: Liechtenstein
+    LT: Lithuania
+    LU: Luxembourg
+    MO: Macau SAR China
+    MK: Macedonia
+    MG: Madagascar
+    MW: Malawi
+    MY: Malaysia
+    MV: Maldives
+    ML: Mali
+    MT: Malta
+    MH: Marshall Islands
+    MQ: Martinique
+    MR: Mauritania
+    MU: Mauritius
+    YT: Mayotte
+    FX: Metropolitan France
+    MX: Mexico
+    FM: Micronesia
+    MI: Midway Islands
+    MD: Moldova
+    MC: Monaco
+    MN: Mongolia
+    ME: Montenegro
+    MS: Montserrat
+    MA: Morocco
+    MZ: Mozambique
+    MM: Myanmar [Burma]
+    NA: Namibia
+    NR: Nauru
+    NP: Nepal
+    NL: Netherlands
+    AN: Netherlands Antilles
+    NT: Neutral Zone
+    NC: New Caledonia
+    NZ: New Zealand
+    NI: Nicaragua
+    NE: Niger
+    NG: Nigeria
+    NU: Niue
+    NF: Norfolk Island
+    KP: North Korea
+    VD: North Vietnam
+    MP: Northern Mariana Islands
+    NO: Norway
+    OM: Oman
+    PC: Pacific Islands Trust Territory
+    PK: Pakistan
+    PW: Palau
+    PS: Palestinian Territories
+    PA: Panama
+    PZ: Panama Canal Zone
+    PG: Papua New Guinea
+    PY: Paraguay
+    YD: Democratic Republic of Yemen
+    PE: Peru
+    PH: Philippines
+    PN: Pitcairn Islands
+    PL: Poland
+    PT: Portugal
+    PR: Puerto Rico
+    QA: Qatar
+    RO: Romania
+    RU: Russia
+    RW: Rwanda
+    RE: Réunion
+    BL: Saint Barthélemy
+    SH: Saint Helena
+    KN: Saint Kitts and Nevis
+    LC: Saint Lucia
+    MF: Saint Martin
+    PM: Saint Pierre and Miquelon
+    VC: Saint Vincent and the Grenadines
+    WS: Samoa
+    SM: San Marino
+    SA: Saudi Arabia
+    SN: Senegal
+    RS: Serbia
+    CS: Serbia and Montenegro
+    SC: Seychelles
+    SL: Sierra Leone
+    SG: Singapore
+    SK: Slovakia
+    SI: Slovenia
+    SB: Solomon Islands
+    SO: Somalia
+    ZA: South Africa
+    GS: South Georgia and the South Sandwich Islands
+    KR: South Korea
+    ES: Spain
+    LK: Sri Lanka
+    SD: Sudan
+    SR: Suriname
+    SJ: Svalbard and Jan Mayen
+    SZ: Swaziland
+    SE: Sweden
+    CH: Switzerland
+    SY: Syria
+    ST: São Tomé and Príncipe
+    TW: Taiwan
+    TJ: Tajikistan
+    TZ: Tanzania
+    TH: Thailand
+    TL: Timor-Leste
+    TG: Togo
+    TK: Tokelau
+    TO: Tonga
+    TT: Trinidad and Tobago
+    TN: Tunisia
+    TR: Turkey
+    TM: Turkmenistan
+    TC: Turks and Caicos Islands
+    TV: Tuvalu
+    UM: U.S. Minor Outlying Islands
+    PU: U.S. Miscellaneous Pacific Islands
+    VI: U.S. Virgin Islands
+    UG: Uganda
+    UA: Ukraine
+    AE: United Arab Emirates
+    GB: United Kingdom
+    US: United States
+    ZZ: Unknown or Invalid Region
+    UY: Uruguay
+    UZ: Uzbekistan
+    VU: Vanuatu
+    VA: Vatican City
+    VE: Venezuela
+    VN: Vietnam
+    WK: Wake Island
+    WF: Wallis and Futuna
+    EH: Western Sahara
+    YE: Yemen
+    ZM: Zambia
+    ZW: Zimbabwe
+    AX: Åland Islands
+  label_crm_cross_project_contacts: Povolit zobrazení kontaktů napříč projekty
+  label_crm_list_board: Panel
+  label_crm_default_list_style: Výchozí styl seznamu
+  label_crm_show_in_top_menu: Zobrazit v horním menu
+  label_crm_show_in_app_menu: Zobrazit v aplikačním menu
+  label_crm_money_settings: Peníze
+  label_crm_disable_taxes: Znemožnit daně
+  label_crm_default_tax: Výchozí hodnota daně
+  label_crm_tax_type: Typ daně
+  label_crm_tax_type_inclusive: Včetně daně
+  label_crm_tax_type_exclusive: Bez daně
+  label_crm_default_currency: Výchozí měna
+  label_crm_thousands_delimiter: Oddělovač tisíců
+  label_crm_decimal_separator: Desetinný oddělovač
+
+  #3.2.10
+  label_crm_add_contact_plural: Přidat kontakty
+  label_crm_search_for_contact: Hledat kontakty
+  label_crm_major_currencies: Hlavní měny
+
+  #3.2.11
+  label_crm_post_address_format: Formát adresy
+  label_crm_post_address_format_macros: "Makra adresy: %{macros}"
+
+  #3.2.14
+  label_crm_last_year: minulý rok
+
+  #3.2.15
+  permission_export_contacts: Exportovat kontakty a dealy
+
+  #3.4.0
+  label_crm_deal_contact: Kontakt přiřazený k dealu
+
+  #3.4.1
+  label_crm_default_country: Výchozí měna
+  label_attribute_of_contact: "%{name} kontaktu"
+  label_crm_contact_country: Země kontaktu
+  label_crm_contact_city: Město kontaktu
+  label_attribute_of_deals: "%{name} dealu"
+
+  #3.4.2
+  permission_manage_public_deals_queries: Spravovat veřejné dealy
+  permission_save_deals_queries: Uložit deal
+  permission_manage_contact_issue_relations: Spravovat vztahy mezi úkoly
+
+  #3.4.4
+  label_crm_pipeline: Pipeline
+  text_crm_no_deal_statuses_in_project: V projektu není žádný stav dealu
+
+  #3.4.6
+  label_crm_contact_email: Email kontaktu
+  label_crm_light_free_version: CRM Light verze ZDARMA
+  label_crm_link_to_pro: Upgrade na PRO
+  label_crm_link_to_pro_demo: PRO verze live demo
+  label_crm_link_to_more_plugins: Zobrazit více RedmineUP pluginů
+
+  text_crm_string_incorrect_format: má nesprávný formát
+  label_deal_items: Dealy
+  button_duplicate: Duplikovat
+
+  label_crm_deal_linked_deal_error: Dealy nemohly být provázány
+
+  label_crm_related_issues: Související úkoly
