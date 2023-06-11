@@ -1,0 +1,4 @@
+*.env
+5-private/plugins/redmine_contacts
+redmine-4.0-private/plugins/redmine_contacts
+test-redminerm505-files
