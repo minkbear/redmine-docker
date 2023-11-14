@@ -1,4 +1,4 @@
-FROM redmine:5.0.5-alpine
+FROM redmine:5.0.6-alpine
 
 # ARG AWS_ACCESS_KEY_ID
 # ARG AWS_SECRET_ACCESS_KEY
